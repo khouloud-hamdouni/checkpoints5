@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    top: 0%;
+}
+.navigation{
+    background-color: rgb(255,255,255);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+}
+
+.Logo {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.links > a {
+    text-decoration: none;
+    color: #d4d4d4;
+}
+
+.links{
+    display: flex;
+    width: 220px;
+    justify-content: space-around;
+}
+
+
+
+.links >a:hover{
+    color:#1ac9ae
+
+}
+
+.isActive{
+    color:#1ac9ae
+}
+/* section2 style*/
+
+.section2{
+
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #1ac9ae;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+}
+
+/* section 3 deux paragraphes */
+
+.para{
+    
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+.para>p{
+    width: 450px;
+}
+
+.paragraph{
+
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9daab1;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 400;
+    color: #747474;
+    line-height: 28px;
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 500px;
+}
+
+
+
+.cartes{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+
+.carte1{
+    background-color: #1ac9ae;
+    width: 230px;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.carte2{
+    background-color: #3d83df;
+    width: 230px;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.carte3{
+    background-color: #1b2734;
+    width: 230px;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+select{
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+}
+
+option{
+    color: black;
+}
+
+/** section 5*/
+.bloc-1{
+    border: 1px solid;
+    background-color: #daf7f6;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.part1{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left:30px;
+    width: 500px;
+    justify-content: space-between;
+}
+.part1 > h2{
+    color: #1ac9ae;
+
+}
+.part1>p{
+    color: #747474;
+}
+.cards1{
+    
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card1{
+    background-color: #ffffff;
+    width: 160px;
+    height: 180px;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.Card2{
+    background-color: #ffffff;
+    width: 160px;
+    height: 180px;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card3{
+
+background-color: #ffffff;
+    width: 160px;
+    height: 180px;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card4{
+    background-color: #ffffff;
+    width: 160px;
+    height: 180px;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card1{
+    margin-top: 25px;
+
+}
+.Div1{
+    
+    display: flex;
+    align-items: center;
+}
+.titre{
+    color: #1ac9ae;
+}
+.desc{
+    color: #747474;
+    font-family: Roboto,Arial, sans-serif;
+    font-size: 11px;
+}
+/*section6*/
+.sec6{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 250px;
+    width: 390px;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+}
+.sec6 >p{
+    color: #d4d4d4;
+    font-size: 12px;
+}
+.sec6>h2{
+    color: #1ac9ae;
+}
+
+
+
+
